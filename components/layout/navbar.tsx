@@ -52,3 +52,14 @@ export default function NavBar() {
     </>
   );
 }
+
+{
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "label": "npm: build",
+      "detail": "Build the project using npm"
+    }
+  ]
+}
