@@ -5,6 +5,7 @@ import Footer from "@/components/layout/footer";
 import { Suspense } from "react";
 import Navbar from "@/components/layout/navbar";
 import { ClerkProvider } from "@clerk/nextjs";
+import { supabase } from "@/lib/supabaseClient";
 
 export const metadata = {
   title: "Precedent - Building blocks for your Next.js project",
